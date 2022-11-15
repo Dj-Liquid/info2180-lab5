@@ -47,7 +47,7 @@ main{
 }
 
 #lookupcities{
-    background-color: #390e82;
+    background-color: rgb(39, 118, 55);
     color: white;
     padding: 5px;
     margin: 5px;

@@ -13,6 +13,7 @@
 
 	<body>
 		<header>
+			<img src="global.jpg" alt="global image">
 			<h1>World Database Lookup</h1>
 		</header>
 
