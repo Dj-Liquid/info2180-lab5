@@ -1,97 +1,107 @@
-body{
+body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-header{
+header {
     grid-area: 1;
-    background-color: #9c0b28;
+    background-color: #4A90E2; 
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     padding: 20px;
-    color: white;
+    color: #FFFFFF; 
 }
 
-
-main{
+main {
     grid-area: 2;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
 }
 
-#controls{
+#controls {
     grid-area: 1;
-    background-color: #050a59;
-    color: white;
+    background-color: #EAF2F8; 
+    color: #333333; 
     padding: 20px;
     justify-content: center;
     text-align: center;
 }
 
-#result{
+#result {
     grid-area: 2;
-    background-color: #353dcc;
+    background-color: #FFFFFF; 
     padding: 20px;
+    color: #333333; 
 }
 
-#lookup{
-    background-color: #b0630b;
-    color: white;
+#lookup {
+    background-color: #F39C12; 
+    color: #FFFFFF; 
     padding: 5px;
     margin: 5px;
     border-radius: 5%;
+    border: none;
 }
 
-#lookupcities{
-    background-color: #390e82;
-    color: white;
+#lookupcities {
+    background-color: #3498DB; 
+    color: #FFFFFF; 
     padding: 5px;
     margin: 5px;
     border-radius: 5%;
+    border: none;
 }
 
-input{
+input {
     padding: 5px;
     padding-right: 200px;
     margin: 5px;
+    border: 1px solid #CCCCCC; 
+    border-radius: 5px;
 }
 
-table{
+table {
     border-collapse: collapse;
     width: 100%;
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 3px solid;
+    border: 2px solid #BDC3C7; 
 }
 
 h2 {
     text-align: center;
-    background-color: rgb(12, 143, 0);
+    background-color: #2ECC71; 
+    color: #FFFFFF; 
+    padding: 10px;
 }
 
-table th{
+table th {
     text-align: center;
-    background-color: rgb(94, 201, 84);
-    border: 1px solid;
-    text-shadow: 1px 1px white;
+    background-color: #A9DFBF; 
+    border: 1px solid #FFFFFF; 
+    text-shadow: 1px 1px #2C3E50; 
     font-weight: bolder;
+    color: #2C3E50; 
 }
 
-table td{
+table td {
     text-align: center;
-    background-color: rgb(143, 201, 120);
-    border: 1px solid;
-    font-weight: bolder;
+    background-color: #D4EFDF; 
+    border: 1px solid #BDC3C7; 
+    font-weight: bold;
+    color: #2C3E50; 
 }
 
-h4{
-    text-shadow: 1px 1px white;
+h4 {
+    text-shadow: 1px 1px #7F8C8D; 
+    color: #2C3E50; 
 }
 
-h2{
-    text-shadow: 1px 1px white;
+h2 {
+    text-shadow: 1px 1px #7F8C8D; 
+    color: #FFFFFF; 
 }
